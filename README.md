@@ -11,14 +11,49 @@ Designed as a standalone POC that can later be **plugged into the OPS AI Intake 
 
 ---
 
-## ▶️ Live Demo
+## ▶️ Run this app locally
 
-Once deployed to Streamlit Cloud, add your link here:
+Follow these steps to run the AI Use Case Version & Override Tracker on your own machine.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-STREAMLIT-APP-URL)
+---
 
-> 🔒 **Note:** This public demo uses **mock users** and a local SQLite database with **fake sample data only**.  
-> No OPS production data, secrets, or internal systems are exposed.
+### 1. Requirements
+
+- **Python** 3.10 or higher  
+- **Git**
+
+If you don’t have them:
+
+- Python: https://www.python.org/downloads/  
+- Git: https://git-scm.com/downloads  
+
+---
+
+### 2. Clone this repository
+
+bash
+git clone https://github.com/AggarwalAkshat/Intake-Version-Tracker-POC.git
+cd Intake-Version-Tracker-POC
+
+---
+
+### 3. Create and activate a virtual environment
+
+- python -m venv .venv
+- .venv\Scripts\Activate.ps1
+
+---
+
+### 4. Install dependencies
+
+- pip install -r requirements.txt
+
+---
+
+### 5. Start the app
+
+- streamlit run app.py
+
 
 ---
 
