@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Streamlit / data
+data/change_tracker.db
+
+# OS
+.DS_Store
+Thumbs.db
